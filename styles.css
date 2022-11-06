@@ -7,15 +7,31 @@ body {
     display: flex;
     padding: 10px;
     margin: 10 px;
-    background: lightgray
+    background: lightgray;
 }
 
 .assignment img {
     width: 200px;
     padding: 10px;
+    border:4px solid white;
+}
+.assignment img:hover {
+    border:4px dashed red;
 }
 
 h1 {
     color:brown;
     text-align:center;
+}
+
+h1:hover {
+    color:red;
+}
+a {
+    text-decoration: none;
+    color: red;
+}
+
+a:hover {
+    color: red;
 }
